@@ -1,0 +1,16 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "create algo using node to solve payment techniques",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Ahmed Elsharkawy",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.3.12",
+    "nodemon": "^1.18.6",
+    "prompt": "^1.0.0"
+  }
+}

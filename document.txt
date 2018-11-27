@@ -1,0 +1,20 @@
+this task folder has some files:
+
+-dbSchema >>this file has structure of database and how store data
+
+-index >>this file has the algorithm of task and some functions that used by algorithm this function build by me she solve 
+         some problems like create user or update data of user and soon
+
+-userlimites >>this file used to set user limitations on the system like total money and number of the transactions but in
+               this file the limitations are fixed to all user
+
+-database  >>only work if use mongodb
+
+-database logic or structure  
+
+                                           UserAccount:
+                                                       Username  >>String
+                                                       Daily Count  >>Number  increment by 1 each process with to data limit
+                                                       Daily Amount  >>Number $
+                                                       Monthly Count >>Number increment by 1 each day with to data limit 
+                                                       Monthly Amount  >>Number $ 
